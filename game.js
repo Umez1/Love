@@ -15,7 +15,7 @@ function sendToWhatsApp(event) {
     event.preventDefault();
     
     const reason = document.getElementById('reason').value;
-    const phoneNumber = 'YOUR_PHONE_NUMBER'; // Replace with your phone number, including the country code (e.g., +1234567890)
+    const phoneNumber = '+2348108384407'; // Replace with your phone number, including the country code (e.g., +1234567890)
 
     if (reason) {
         const message = `She said: ${document.getElementById('reasonLabel').textContent} - ${reason}`;
